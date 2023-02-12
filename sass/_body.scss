@@ -1,0 +1,246 @@
+/*********************
+Header
+*********************/
+
+header{
+    .navbar-nav{
+        .nav-link{
+            color: $prim-clr;
+            font-weight: 600;
+
+            &.active,
+            &:hover{
+                color: $sec-clr;
+            }
+        }
+
+        .dropdown-menu{
+            border: 1px solid $sec-clr;
+        }
+    }
+}
+
+/*********************
+landing 
+*********************/
+
+/*********************
+Section
+*********************/
+
+.feat{
+    border: 2px solid $border;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    overflow: hidden;
+    rotate: -3deg;
+
+    h5{
+        color: $border;
+    }
+
+
+    .icon{
+    color: $white;
+    background-color: $border;
+    font-size: 1.5rem;
+    }
+
+    .i-abs{
+        bottom: -1.8rem;
+        right: 0.1rem;
+        color: $icon-clr;
+        rotate: 15deg;
+        z-index: -1;
+    }
+}
+
+/*********************
+Try Your design
+*********************/
+.try-d{
+    background-color: $bg-try;
+}
+
+/*********************
+Work
+*********************/
+.work{
+    .card{
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+        border: 2px solid $border;
+        background-color: #fff;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+
+
+        .card-header{
+            img{
+                height: 177px;
+            }
+            
+        }
+
+        h3{
+            color: #3292cd;
+        }
+
+        
+        .overlay{
+            background-color: $overlay;
+            width: 100%;
+            height: 100%;
+            left: 1.8rem;
+            bottom: -1.8rem;
+            z-index: -1;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+        }
+    }
+
+}
+
+/*********************
+Courses
+*********************/
+.courses{
+    background-color: $bg-try;
+    .card{
+        box-shadow: $box-sh;
+
+        .card-header{
+            img{
+                width: 203px;
+                height: 75px;
+            }
+            
+        }
+
+        h5{
+            color: #001d3d;
+        }
+        .star{
+            color: $golden;
+        }
+    }
+}
+
+/*********************
+Testimonials
+*********************/
+.testimonials{
+    .test{
+        background: linear-gradient(0deg, #89c2d9db 0%, #e5ecf4 100%);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        background-color: #fafaf4;
+    }   
+    .card{
+        img{
+            width: 2rem;
+        }
+    }
+
+    blockquote {
+        font-weight: 600;
+        max-width: 800px;
+    }
+}
+
+.icons{
+    color: $bg-try;
+    font-size: 12px;
+
+    .active{
+        color: $sec-clr;
+    }
+}
+
+/*********************
+Design
+*********************/
+
+.design{
+    .card{
+        border: 2px solid $border;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    
+        &.card1{
+            background-color: #001d3d;
+        }
+
+        .img-top{
+            border-radius: 8px 8px 0 0;
+            -webkit-border-radius: 8px 8px 0 0;
+            -moz-border-radius: 8px 8px 0 0;
+            -ms-border-radius: 8px 8px 0 0;
+            -o-border-radius: 8px 8px 0 0;
+} 
+        
+        .card-footer{
+            background-color: $white;
+            img{
+                width: 4rem;
+            }
+        }
+}
+}
+
+/*********************
+Subscribe
+*********************/
+
+.subscribe{
+    background-color: transparent;
+
+    .form-control{
+        padding: .6rem .7rem;
+        background-clip: padding-box;
+        appearance: none;
+        border: transparent;
+        background-color: #fff;
+        border: 1px solid $border;
+
+        &:focus{
+            outline: 0;
+            box-shadow: none;
+            border-color: $border;
+        }
+    }
+
+    .border-rad{
+        background-color: $sec-clr;
+        border-color: $sec-clr;
+        color: $white;
+        
+        &:hover{
+            background-color: $sec-clr;
+            border-color: $sec-clr;
+        }
+    }
+}
+
+/*********************
+Footer
+*********************/
+
+footer{
+    background-color: $bg-try;
+
+    p{
+        color: #001d3d;
+    }
+    .copyright{
+        color: #001d3d;
+        background-color: #c0d6df;
+    }
+}

@@ -1,0 +1,80 @@
+header {
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+
+    .btn {
+        color: $sec-clr;
+        font-weight: 600;
+        &:hover,
+        &:focus {
+            color: $sec-clr;
+        }
+    }
+
+    .navbar-toggler {
+        font-size: 1.8rem;
+        color: $sec-clr;
+
+        &:hover {
+            color: $prim-clr;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.btn{
+    &.main-btn {
+        color: $sec-clr;
+        padding: 0.5em 1rem;
+        font-weight: 500;
+        border: 2px solid $sec-clr;
+        box-shadow: $box-sh;
+        &:hover {
+            color: $sec-clr;
+            border: 2px solid $sec-clr;
+        }
+        
+        &.active{
+            background-color: $sec-clr;
+            border: 2px solid $sec-clr;
+            color: $white;
+        }
+        
+        &.pulse:hover,
+        &.pulse:focus {
+            animation: pulse 1s;
+            box-shadow: 0 0 0 2em transparent;
+        }
+    }
+
+    &.try-btn{
+        color: $white;
+        padding: 0.5em 1rem;
+        font-weight: 500;
+        border: 2px solid $sec-clr;
+        box-shadow: $box-sh;
+        background-color: $sec-clr;
+        padding: 0.7rem 1.8rem;
+        &:hover {
+            color: $sec-clr;
+            border: 2px solid $sec-clr;
+        }
+    }
+
+    &.exp-btn{
+        color: $white;
+        padding: 0.5em 1rem;
+        font-weight: 500;
+        border: 2px solid $sec-clr;
+        box-shadow: $box-sh;
+        background-color: $sec-clr;
+        padding: 0.7rem 1.8rem;
+        &:hover {
+            color: $sec-clr;
+            border: 2px solid $sec-clr;
+        }
+    }
+}
+

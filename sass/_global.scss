@@ -1,0 +1,25 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: $prim-clr;
+}
+
+a{
+    color: $prim-clr;
+    text-decoration: none;
+}
+
+p{
+    color: $blue;
+}
+
+.main-title{
+    max-width: 40rem;
+}
